@@ -10,7 +10,7 @@ class Ex2 {
 
 		int[] num = new int[vetor];
 
-		for(int i = 0; i < num.length; i++){
+		for(int i = 0; i < num.length; i++){ // selecioa a quantidade de vetor
 			System.out.println("Digite a posição do vetor: " + i);
 			num[i] = entrada.nextInt();
 		}
