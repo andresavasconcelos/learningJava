@@ -1,0 +1,28 @@
+import java.util.Scanner;
+classe Main
+{
+  public staic void main(String[] args)
+  {
+    Scanner teclado = new Scanner (System.in);
+
+    double idade, peso, i, j, m, k;
+    String nome;
+
+    while(idade > 0)
+    {
+      System.out.println("Digite o nome");
+      nome = entrada.next();
+
+      System.out.printlm("Digite o peso");
+      peso = teclado.nextInt();
+
+      Sytem.out.println("Digiete a idade");
+      idade = teclado.nextDouble();
+
+      if(idade != 0 )
+      {
+        break
+      }
+    }
+  }
+}

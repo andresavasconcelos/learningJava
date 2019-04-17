@@ -1,0 +1,13 @@
+import java.util.*.;
+
+class desafioFor {
+	public stativ void main (String args[]){
+		Scanner entrada = new Scanner(System.in);
+
+		int a;
+
+		for(a >= 1, a<=3600, a++){
+		
+		}
+	}
+}
