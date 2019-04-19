@@ -5,58 +5,46 @@ class EP5_2
 	{
 		Scanner teclado = new Scanner(System.in);
 		int a, b, c, d, e, media;
-		System.out.println("Digite o valor de a: ");
+		//System.out.println("Digite o valor de a: ");
 		a = teclado.nextInt();
 
-		System.out.println("Digite o valor de b: ");
+		//System.out.println("Digite o valor de b: ");
 		b = teclado.nextInt();
 
-		System.out.println("Digite o valor de c: ");
+		//System.out.println("Digite o valor de c: ");
 		c = teclado.nextInt();
 
-		System.out.println("Digite o valor de d: ");
+		//System.out.println("Digite o valor de d: ");
 		d = teclado.nextInt();
 
-		System.out.println("Digite o valor de e: ");
+		//System.out.println("Digite o valor de e: ");
 		e = teclado.nextInt();
 
 		media = (a + b + c + d + e) / 5 ;
 
 	    if ((media < a) && (a % 2 == 0))
 	    {
-	      System.out.println(a);
+	      System.out.println("par maior que a media: " + a);
 	    }
 
 	     if ((media < b) && (b % 2 == 0))
 	    {
-	      System.out.println(b);
+	      System.out.println("par maior que a media: " + b);
 	    }
 
 	     if ((media < c) && (c % 2 == 0))
 	    {
-	      System.out.println(c);
+	      System.out.println("par maior que a media: " + c);
 	    }
 
 	    if ((media < d) && (d % 2 == 0))
 	    {
-	      System.out.println(d);
+	      System.out.println("par maior que a media: " + d);
 	    }
 
 	     if ((media < e) && (e % 2 == 0))
 	    {
-	      System.out.println(e);
+	      System.out.println("par maior que a media: " + e);
 	    }
-	    
-	}
-}
-
-
-
-
-
-
-
-
-	
 	}
 }
